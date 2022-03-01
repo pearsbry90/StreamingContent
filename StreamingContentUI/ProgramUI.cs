@@ -56,7 +56,7 @@ private void CreateNewContent(){
     content.Title = Console.ReadLine();
 
     Console.WriteLine("Please enter a brief description of your movie:");
-    content.Description = Console.Readline();
+    content.Description = Console.ReadLine();
 
     Console.WriteLine("Please give us a start rating on your movie:");
     content.StarRating = double.Parse(Console.ReadLine());
@@ -70,7 +70,7 @@ private void CreateNewContent(){
     "6. TV Y\n"+
     "7. TV G\n"+
     "8. TV PG\n"+
-    "9. TV 14"+
+    "9. TV 14\n"+
     "10. TV MA");
     string maturityRating = Console.ReadLine();
 
@@ -107,7 +107,7 @@ private void CreateNewContent(){
         break;
     }
 
-    Console.Writing("Select a Genre:\n"+
+    Console.WriteLine("Select a Genre:\n"+
     "1. Horror\n"+
     "2. Comedy\n"+
     "3. Drama\n"+
@@ -134,11 +134,11 @@ private void ShowAllContent(){
 }
 
 private void DisplayContent(StreamingContent content){
-    Console.Writeline($"Title: {content.Title}\n"+
+    Console.WriteLine($"Title: {content.Title}\n"+
     $"Description: {content.Description}\n"+
     $"Genre: {content.TypeOfGenre}\n"+
     $"Star: {content.StarRating}\n"+
-    $"Family Friendly: {content.isFamilyFriendly}\n"+
+    $"Family Friendly: {content.IsFamilyFriendly}\n"+
     $"Maturity Rating: {content.MaturityRating}\n");
 }
 

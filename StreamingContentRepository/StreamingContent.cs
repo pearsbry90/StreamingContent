@@ -5,7 +5,7 @@ public string Title {get;set;}
 public string Description {get;set;}
 public double StarRating {get;set;}
 public string MaturityRating {get;set;}
-public bool isFamilyFriendly {get;set;}
+public bool IsFamilyFriendly {get;set;}
 
 public GenreType TypeOfGenre {get;set;}
 
@@ -14,7 +14,7 @@ public StreamingContent(string title, string description, string maturityRating,
     Title = title;
     Description = description;
     StarRating = starRating;
-    IsFamilyRating = isFamilyFriendly;
+    IsFamilyFriendly = isFamilyFriendly;
 }
 }
 
@@ -23,6 +23,5 @@ public enum GenreType{
     Comedy,
     Drama,
     Action, 
-    Mystery,
-    Action, 
+    Mystery
 }

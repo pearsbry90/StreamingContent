@@ -1,8 +1,7 @@
 namespace StreamingContentRepo;
 public class StreamingContentRepository{
     // An Access Modifier
-    protected readonly list<StreamingContent> _contentDirectory = new list<StreamingContent>();
-
+    protected readonly List<StreamingContent> _contentDirectory = new List<StreamingContent>();
 public bool AddContentToDirectory(StreamingContent content){
     int startingCount = _contentDirectory.Count;
 
@@ -20,7 +19,7 @@ public List<StreamingContent> GetContents(){
 public StreamingContent GetContentByTitle(string title){
     foreach (StreamingContent content in _contentDirectory){
         // For every information in my list, I'll have to pull out each content in the list
-        if(content.Title.ToLower() = title.ToLower()){
+        if(content.Title.ToLower() == title.ToLower()){
             return content;
         }
     }

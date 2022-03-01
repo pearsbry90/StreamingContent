@@ -1,5 +1,12 @@
+C:\Users\ramon\Documents\SD134FT\RepoPatterns\RepoPatterns\StreamingContentRepository\bin\Debug\net6.0\StreamingContentRepo.deps.json
+C:\Users\ramon\Documents\SD134FT\RepoPatterns\RepoPatterns\StreamingContentRepository\bin\Debug\net6.0\StreamingContentRepo.dll
+C:\Users\ramon\Documents\SD134FT\RepoPatterns\RepoPatterns\StreamingContentRepository\bin\Debug\net6.0\ref\StreamingContentRepo.dll
+C:\Users\ramon\Documents\SD134FT\RepoPatterns\RepoPatterns\StreamingContentRepository\bin\Debug\net6.0\StreamingContentRepo.pdb
 C:\Users\ramon\Documents\SD134FT\RepoPatterns\RepoPatterns\StreamingContentRepository\obj\Debug\net6.0\StreamingContentRepo.csproj.AssemblyReference.cache
 C:\Users\ramon\Documents\SD134FT\RepoPatterns\RepoPatterns\StreamingContentRepository\obj\Debug\net6.0\StreamingContentRepo.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ramon\Documents\SD134FT\RepoPatterns\RepoPatterns\StreamingContentRepository\obj\Debug\net6.0\StreamingContentRepo.AssemblyInfoInputs.cache
 C:\Users\ramon\Documents\SD134FT\RepoPatterns\RepoPatterns\StreamingContentRepository\obj\Debug\net6.0\StreamingContentRepo.AssemblyInfo.cs
 C:\Users\ramon\Documents\SD134FT\RepoPatterns\RepoPatterns\StreamingContentRepository\obj\Debug\net6.0\StreamingContentRepo.csproj.CoreCompileInputs.cache
+C:\Users\ramon\Documents\SD134FT\RepoPatterns\RepoPatterns\StreamingContentRepository\obj\Debug\net6.0\StreamingContentRepo.dll
+C:\Users\ramon\Documents\SD134FT\RepoPatterns\RepoPatterns\StreamingContentRepository\obj\Debug\net6.0\ref\StreamingContentRepo.dll
+C:\Users\ramon\Documents\SD134FT\RepoPatterns\RepoPatterns\StreamingContentRepository\obj\Debug\net6.0\StreamingContentRepo.pdb
