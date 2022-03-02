@@ -76,34 +76,34 @@ private void CreateNewContent(){
 
     switch(maturityRating){
         case "1":
-        content.MaturityRating = "G";
+        content.MaturityRating = MaturityRating.G;
         break;
         case "2":
-        content.MaturityRating = "PG";
+        content.MaturityRating = MaturityRating.PG;
         break;
         case "3":
-        content.MaturityRating = "PG 13";
+        content.MaturityRating = MaturityRating.PG_13;
         break;
         case "4":
-        content.MaturityRating = "R";
+        content.MaturityRating = MaturityRating.R;
         break;
         case "5":
-        content.MaturityRating = "NC";
+        content.MaturityRating = MaturityRating.NC_17;
         break;
         case "6":
-        content.MaturityRating = "TV Y";
+        content.MaturityRating = MaturityRating.TV_Y;
         break;
         case "7":
-        content.MaturityRating = "TV G";
+        content.MaturityRating = MaturityRating.TV_G;
         break;
         case "8":
-        content.MaturityRating = "TV PG";
+        content.MaturityRating = MaturityRating.TV_PG;
         break;
         case "9":
-        content.MaturityRating = "TV 14";
+        content.MaturityRating = MaturityRating.TV_14;
         break;
          case "10":
-        content.MaturityRating = "TV MA";
+        content.MaturityRating = MaturityRating.TV_MA;
         break;
     }
 
@@ -194,10 +194,10 @@ if(targetIndex >= 0 && targetIndex < contentList.Count){
 }
 
 private void SeedContentList(){
-    // True/False is = Family Friendly?
-    StreamingContent rubber = new StreamingContent("rubber", "Tire comes to life and kills people", "R", 5, false);
-    StreamingContent toystory = new StreamingContent("Toy Story", "Best Childhood Move", "PG", 5, true);
-    StreamingContent starwars = new StreamingContent("Star Wars", "Lightsabers is all you need to know", "PG 13", 5, true);
+    // True/False is = Family Friendly? 
+    StreamingContent rubber = new StreamingContent("Rubber", "Tire comes to life and kills people", MaturityRating.R, 5,GenreType.Gore );
+    StreamingContent toystory = new StreamingContent("Toy Story", "Best Childhood Move", MaturityRating.PG, 5, GenreType.Drama);
+    StreamingContent starwars = new StreamingContent("Star Wars", "Lightsabers is all you need to know", MaturityRating.PG_13, 5, GenreType.Action);
 
     _streamingRepo.AddContentToDirectory(rubber);
     _streamingRepo.AddContentToDirectory(toystory);
